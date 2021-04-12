@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+article img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+section img {
+    width: 100%;
+}
+.kepTarolo{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 2px;
+}
+.kepTaroloAktiv{
+    background: #ffcccc;
+}
+
+/*.kepTarolo h2{
+    position: absolute;
+    top: 80px;
+    background: white;
+    width: 100%;
+    opacity: 0.6;
+}*/
+#Galeria{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-gap: 5px;
+    align-items: center;
+}
+/*#Galeria button{
+    align-self: center;
+}*/
